@@ -1,109 +1,111 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-labelledby="title desc">
   <title id="title">Muhammad Hashir Lodhi — AI Engineer</title>
-  <desc id="desc">Animated dark technology banner showing an AI network and the words research, reason, retrieve, and act.</desc>
+  <desc id="desc">Minimal black and white animated banner introducing Muhammad Hashir Lodhi and the AI systems he builds.</desc>
   <defs>
-    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#020617"/>
-      <stop offset="0.48" stop-color="#0f172a"/>
-      <stop offset="1" stop-color="#111827"/>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.62" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#f5f5f5"/>
     </linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#22d3ee"/>
-      <stop offset="0.52" stop-color="#38bdf8"/>
-      <stop offset="1" stop-color="#a78bfa"/>
+    <linearGradient id="ink" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#000000"/>
+      <stop offset="1" stop-color="#525252"/>
     </linearGradient>
-    <radialGradient id="cyanGlow">
-      <stop offset="0" stop-color="#06b6d4" stop-opacity="0.30"/>
-      <stop offset="1" stop-color="#06b6d4" stop-opacity="0"/>
+    <radialGradient id="softSpot">
+      <stop offset="0" stop-color="#000000" stop-opacity="0.07"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0"/>
     </radialGradient>
-    <radialGradient id="violetGlow">
-      <stop offset="0" stop-color="#8b5cf6" stop-opacity="0.24"/>
-      <stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/>
-    </radialGradient>
-    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
-      <path d="M36 0H0V36" fill="none" stroke="#94a3b8" stroke-opacity="0.07" stroke-width="1"/>
+    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1" fill="#000000" opacity="0.045"/>
     </pattern>
-    <filter id="softGlow" x="-100%" y="-100%" width="300%" height="300%">
-      <feGaussianBlur stdDeviation="5" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    <filter id="shadow" x="-40%" y="-40%" width="180%" height="200%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#000000" flood-opacity="0.16"/>
+    </filter>
+    <filter id="smallShadow" x="-40%" y="-40%" width="180%" height="200%">
+      <feDropShadow dx="0" dy="8" stdDeviation="9" flood-color="#000000" flood-opacity="0.13"/>
     </filter>
     <clipPath id="frame"><rect width="1200" height="430" rx="28"/></clipPath>
   </defs>
   <style>
     .sans { font-family: Inter, "Segoe UI", Arial, sans-serif; }
     .mono { font-family: "JetBrains Mono", Consolas, monospace; }
-    .flow { stroke-dasharray: 8 12; animation: flow 8s linear infinite; }
-    .node { animation: pulse 3s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
-    .node:nth-of-type(2n) { animation-delay: -1s; }
-    .node:nth-of-type(3n) { animation-delay: -2s; }
+    .float { animation: float 5s ease-in-out infinite; }
+    .orbit { animation: orbit 18s linear infinite; transform-box: fill-box; transform-origin: center; }
     .word1 { animation: word1 9s ease-in-out infinite; }
     .word2 { opacity: 0; animation: word2 9s ease-in-out infinite; }
     .word3 { opacity: 0; animation: word3 9s ease-in-out infinite; }
-    .cursor { animation: blink 1s steps(2, end) infinite; }
-    .scan { animation: scan 7s ease-in-out infinite; }
-    @keyframes flow { to { stroke-dashoffset: -160; } }
-    @keyframes pulse { 0%,100% { opacity: .65; transform: scale(.9); } 50% { opacity: 1; transform: scale(1.15); } }
-    @keyframes word1 { 0%,29% { opacity: 1; transform: translateY(0); } 33%,96% { opacity: 0; transform: translateY(7px); } 100% { opacity: 1; } }
-    @keyframes word2 { 0%,29%,66%,100% { opacity: 0; transform: translateY(7px); } 33%,62% { opacity: 1; transform: translateY(0); } }
-    @keyframes word3 { 0%,62%,100% { opacity: 0; transform: translateY(7px); } 66%,96% { opacity: 1; transform: translateY(0); } }
-    @keyframes blink { 50% { opacity: 0; } }
-    @keyframes scan { 0%,100% { transform: translateY(-40px); opacity: 0; } 20%,80% { opacity: .5; } 50% { transform: translateY(430px); opacity: .25; } }
+    .eye { animation: blink 4.2s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+    .eye.two { animation-delay: .08s; }
+    .cursor { animation: cursor 1s steps(2, end) infinite; }
+    @keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-9px); } }
+    @keyframes orbit { to { transform: rotate(360deg); } }
+    @keyframes word1 { 0%,29% { opacity: 1; transform: translateY(0); } 33%,96% { opacity: 0; transform: translateY(6px); } 100% { opacity: 1; } }
+    @keyframes word2 { 0%,29%,66%,100% { opacity: 0; transform: translateY(6px); } 33%,62% { opacity: 1; transform: translateY(0); } }
+    @keyframes word3 { 0%,62%,100% { opacity: 0; transform: translateY(6px); } 66%,96% { opacity: 1; transform: translateY(0); } }
+    @keyframes blink { 0%,44%,48%,100% { transform: scaleY(1); } 46% { transform: scaleY(.08); } }
+    @keyframes cursor { 50% { opacity: 0; } }
     @media (prefers-reduced-motion: reduce) { * { animation: none !important; } .word2,.word3 { display: none; } }
   </style>
 
   <g clip-path="url(#frame)">
-    <rect width="1200" height="430" fill="url(#background)"/>
-    <rect width="1200" height="430" fill="url(#grid)"/>
-    <circle cx="170" cy="40" r="300" fill="url(#cyanGlow)"/>
-    <circle cx="1090" cy="360" r="320" fill="url(#violetGlow)"/>
-    <rect class="scan" x="0" y="-35" width="1200" height="2" fill="url(#accent)" opacity="0.4"/>
+    <rect width="1200" height="430" fill="url(#paper)"/>
+    <rect width="1200" height="430" fill="url(#dots)"/>
+    <circle cx="1085" cy="80" r="280" fill="url(#softSpot)"/>
+    <text x="47" y="94" fill="#eeeeee" font-size="82" font-weight="900" class="sans">01</text>
 
-    <g transform="translate(58 52)">
-      <rect width="180" height="31" rx="15.5" fill="#0e7490" fill-opacity="0.22" stroke="#22d3ee" stroke-opacity="0.65"/>
-      <circle cx="18" cy="15.5" r="4" fill="#22d3ee" filter="url(#softGlow)"/>
-      <text x="31" y="20.5" fill="#a5f3fc" font-size="12" font-weight="700" letter-spacing="1.8" class="mono">AI ENGINEER</text>
+    <g transform="translate(58 47)">
+      <rect width="142" height="30" rx="15" fill="#f5f5f5" stroke="#d4d4d4"/>
+      <circle cx="17" cy="15" r="3.5" fill="#111111"/>
+      <text x="29" y="19.5" fill="#404040" font-size="11" font-weight="700" letter-spacing="1.7" class="mono">AI ENGINEER</text>
 
-      <text y="105" fill="#f8fafc" font-size="45" font-weight="800" letter-spacing="-1.2" class="sans">MUHAMMAD HASHIR LODHI</text>
-      <rect y="121" width="570" height="3" rx="1.5" fill="url(#accent)"/>
+      <text y="112" fill="#050505" font-size="47" font-weight="850" letter-spacing="-1.7" class="sans">MUHAMMAD HASHIR LODHI</text>
+      <rect y="128" width="585" height="3" rx="1.5" fill="url(#ink)"/>
 
-      <text y="172" fill="#94a3b8" font-size="20" font-weight="500" class="sans">I engineer AI systems that</text>
-      <g transform="translate(0 202)" class="sans" font-size="31" font-weight="800" letter-spacing="0.4">
-        <text class="word1" fill="url(#accent)">RESEARCH · REASON · ACT</text>
-        <text class="word2" fill="url(#accent)">RETRIEVE · CITE · EVALUATE</text>
-        <text class="word3" fill="url(#accent)">SHIP · OBSERVE · IMPROVE</text>
+      <text y="180" fill="#737373" font-size="19" font-weight="550" class="sans">I build useful intelligence that can</text>
+      <g transform="translate(0 212)" fill="url(#ink)" font-size="30" font-weight="850" letter-spacing="0.2" class="sans">
+        <text class="word1">RESEARCH · REASON · ACT</text>
+        <text class="word2">RETRIEVE · CITE · EVALUATE</text>
+        <text class="word3">SHIP · OBSERVE · IMPROVE</text>
       </g>
 
-      <g transform="translate(0 286)" class="mono" font-size="12" font-weight="700" letter-spacing="1.1">
-        <g><rect width="112" height="32" rx="8" fill="#0f766e" fill-opacity="0.22" stroke="#2dd4bf" stroke-opacity="0.45"/><text x="18" y="20.5" fill="#99f6e4">LLM APPS</text></g>
-        <g transform="translate(124)"><rect width="92" height="32" rx="8" fill="#0369a1" fill-opacity="0.22" stroke="#38bdf8" stroke-opacity="0.45"/><text x="21" y="20.5" fill="#bae6fd">RAG</text></g>
-        <g transform="translate(228)"><rect width="104" height="32" rx="8" fill="#6d28d9" fill-opacity="0.20" stroke="#a78bfa" stroke-opacity="0.45"/><text x="18" y="20.5" fill="#ddd6fe">AGENTS</text></g>
-        <g transform="translate(344)"><rect width="134" height="32" rx="8" fill="#334155" fill-opacity="0.32" stroke="#94a3b8" stroke-opacity="0.38"/><text x="17" y="20.5" fill="#cbd5e1">EVALUATION</text></g>
+      <g transform="translate(0 284)" class="mono" font-size="11" font-weight="700" letter-spacing="1">
+        <g><rect width="105" height="31" rx="15.5" fill="#ffffff" stroke="#d4d4d4"/><text x="18" y="19.5" fill="#262626">LLM APPS</text></g>
+        <g transform="translate(116)"><rect width="76" height="31" rx="15.5" fill="#ffffff" stroke="#d4d4d4"/><text x="23" y="19.5" fill="#262626">RAG</text></g>
+        <g transform="translate(203)"><rect width="95" height="31" rx="15.5" fill="#ffffff" stroke="#d4d4d4"/><text x="18" y="19.5" fill="#262626">AGENTS</text></g>
+        <g transform="translate(309)"><rect width="125" height="31" rx="15.5" fill="#ffffff" stroke="#d4d4d4"/><text x="17" y="19.5" fill="#262626">EVALUATION</text></g>
       </g>
 
-      <text y="358" fill="#64748b" font-size="12" class="mono">LAHORE, PAKISTAN  //  BUILDING PRACTICAL INTELLIGENCE</text>
-      <rect class="cursor" x="461" y="346" width="8" height="14" fill="#22d3ee"/>
+      <text y="354" fill="#a3a3a3" font-size="11" class="mono">LAHORE, PAKISTAN  /  BUILDING FOR THE WORLD</text>
+      <rect class="cursor" x="409" y="343" width="7" height="13" fill="#171717"/>
     </g>
 
-    <g transform="translate(805 54)" fill="none">
-      <path class="flow" d="M88 53L215 86L280 182L210 287L76 270L25 165Z" stroke="url(#accent)" stroke-width="2" opacity="0.6"/>
-      <path class="flow" d="M88 53L136 160L215 86M136 160L280 182M136 160L210 287M136 160L76 270M136 160L25 165" stroke="#22d3ee" stroke-width="1.5" opacity="0.42"/>
-      <path d="M25 165L76 270M215 86L210 287" stroke="#a78bfa" stroke-width="1" opacity="0.24"/>
-
-      <g filter="url(#softGlow)">
-        <circle class="node" cx="88" cy="53" r="7" fill="#22d3ee"/>
-        <circle class="node" cx="215" cy="86" r="8" fill="#38bdf8"/>
-        <circle class="node" cx="280" cy="182" r="7" fill="#a78bfa"/>
-        <circle class="node" cx="210" cy="287" r="8" fill="#8b5cf6"/>
-        <circle class="node" cx="76" cy="270" r="7" fill="#2dd4bf"/>
-        <circle class="node" cx="25" cy="165" r="6" fill="#67e8f9"/>
-        <circle class="node" cx="136" cy="160" r="14" fill="#f8fafc"/>
+    <g transform="translate(844 76)">
+      <g class="orbit" opacity="0.52">
+        <ellipse cx="142" cy="139" rx="151" ry="103" fill="none" stroke="#d4d4d4" stroke-dasharray="4 10"/>
+        <circle cx="8" cy="92" r="5" fill="#737373"/>
+        <circle cx="274" cy="196" r="7" fill="#171717"/>
+        <circle cx="213" cy="47" r="4" fill="#a3a3a3"/>
       </g>
-
-      <circle cx="136" cy="160" r="42" stroke="#22d3ee" stroke-opacity="0.18"/>
-      <circle cx="136" cy="160" r="64" stroke="#a78bfa" stroke-opacity="0.11" stroke-dasharray="3 8"/>
-      <text x="136" y="214" text-anchor="middle" fill="#94a3b8" font-size="10" letter-spacing="2" class="mono">INTELLIGENCE</text>
-      <text x="136" y="230" text-anchor="middle" fill="#64748b" font-size="9" letter-spacing="1.6" class="mono">CONNECTED TO ACTION</text>
+      <ellipse cx="142" cy="294" rx="105" ry="18" fill="#000000" opacity="0.10"/>
+      <g class="float" filter="url(#shadow)">
+        <rect x="48" y="27" width="188" height="242" rx="42" fill="#ffffff" stroke="#e5e5e5" stroke-width="2"/>
+        <rect x="27" y="96" width="25" height="82" rx="12" fill="#eeeeee" stroke="#d4d4d4"/>
+        <rect x="232" y="96" width="25" height="82" rx="12" fill="#eeeeee" stroke="#d4d4d4"/>
+        <rect x="69" y="67" width="146" height="91" rx="24" fill="#090909"/>
+        <rect class="eye" x="103" y="98" width="9" height="24" rx="4.5" fill="#ffffff"/>
+        <rect class="eye two" x="172" y="98" width="9" height="24" rx="4.5" fill="#ffffff"/>
+        <g fill="#171717">
+          <rect x="105" y="195" width="8" height="18" rx="4"/>
+          <rect x="120" y="191" width="8" height="26" rx="4"/>
+          <rect x="135" y="195" width="8" height="18" rx="4"/>
+          <rect x="150" y="191" width="8" height="26" rx="4"/>
+          <rect x="165" y="195" width="8" height="18" rx="4"/>
+        </g>
+        <circle cx="142" cy="238" r="7" fill="#e5e5e5" stroke="#d4d4d4"/>
+      </g>
+      <rect x="90" y="316" width="104" height="28" rx="14" fill="#ffffff" stroke="#d4d4d4" filter="url(#smallShadow)"/>
+      <text x="142" y="334" text-anchor="middle" fill="#525252" font-size="10" font-weight="700" letter-spacing="1.4" class="mono">SYSTEM ONLINE</text>
     </g>
   </g>
-  <rect x="1" y="1" width="1198" height="428" rx="27" fill="none" stroke="url(#accent)" stroke-opacity="0.28" stroke-width="2"/>
+  <rect x="1" y="1" width="1198" height="428" rx="27" fill="none" stroke="#d4d4d4" stroke-width="2"/>
 </svg>

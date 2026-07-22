@@ -12,9 +12,9 @@
 
 <br><br>
 
-<a href="mailto:hashirlodhi145@gmail.com"><img src="https://img.shields.io/badge/OPEN_TO-AI_ENGINEERING_OPPORTUNITIES-22c55e?style=for-the-badge&labelColor=0f172a" alt="Open to AI engineering opportunities" /></a>
-<a href="https://www.linkedin.com/in/hashir-lodhi/"><img src="https://img.shields.io/badge/LINKEDIN-LET'S_CONNECT-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect on LinkedIn" /></a>
-<a href="https://medium.com/@hashirlodhi145"><img src="https://img.shields.io/badge/MEDIUM-READ_MY_WRITING-ffffff?style=for-the-badge&logo=medium&logoColor=black" alt="Read my writing on Medium" /></a>
+<a href="mailto:hashirlodhi145@gmail.com"><img src="https://img.shields.io/badge/OPEN_TO-AI_ENGINEERING_OPPORTUNITIES-111111?style=for-the-badge&labelColor=f5f5f5" alt="Open to AI engineering opportunities" /></a>
+<a href="https://www.linkedin.com/in/hashir-lodhi/"><img src="https://img.shields.io/badge/LINKEDIN-LET'S_CONNECT-111111?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect on LinkedIn" /></a>
+<a href="https://medium.com/@hashirlodhi145"><img src="https://img.shields.io/badge/MEDIUM-READ_MY_WRITING-f5f5f5?style=for-the-badge&logo=medium&logoColor=black" alt="Read my writing on Medium" /></a>
 
 </div>
 
@@ -47,7 +47,7 @@ My work sits where **LLMs, retrieval, agents, machine learning, and backend engi
 <tr>
 <td width="50%" valign="top">
 
-### 🔎 [JACK — AI Fact Verification](https://github.com/HashirLodhi/JACK)
+### 01 — [JACK · AI Fact Verification](https://github.com/HashirLodhi/JACK)
 
 Deploys specialized AI agents to research a claim, verify whether it was made, investigate what happened, and return a citation-backed verdict.
 
@@ -60,7 +60,7 @@ Deploys specialized AI agents to research a claim, verify whether it was made, i
 </td>
 <td width="50%" valign="top">
 
-### ⚖️ [LegalizeAI — Pakistani Legal RAG](https://github.com/HashirLodhi/Legalize-AI)
+### 02 — [LegalizeAI · Pakistani Legal RAG](https://github.com/HashirLodhi/Legalize-AI)
 
 Answers questions against the Constitution of Pakistan and Pakistan Penal Code using retrieval-augmented generation and persistent conversational context.
 
@@ -75,7 +75,7 @@ Answers questions against the Constitution of Pakistan and Pakistan Penal Code u
 <tr>
 <td width="50%" valign="top">
 
-### ✈️ [Travel Agent — Live AI Planner](https://github.com/HashirLodhi/Travel-Agent)
+### 03 — [Travel Agent · Live AI Planner](https://github.com/HashirLodhi/Travel-Agent)
 
 Creates personalized day-by-day itineraries using live weather, web research, budget constraints, local recommendations, and follow-up chat.
 
@@ -88,7 +88,7 @@ Creates personalized day-by-day itineraries using live weather, web research, bu
 </td>
 <td width="50%" valign="top">
 
-### ✋ [AirCanvas — Gesture Computing](https://github.com/HashirLodhi/Air-Canvas)
+### 04 — [AirCanvas · Gesture Computing](https://github.com/HashirLodhi/Air-Canvas)
 
 Turns hand landmarks into a touch-free drawing interface with real-time gesture classification, Bézier smoothing, erasing, and lasso selection.
 
@@ -114,28 +114,28 @@ Turns hand landmarks into a touch-free drawing interface with real-time gesture 
 <tr>
 <td width="25%" valign="top">
 
-### 🧠 Agentic AI
+### 01 / Agentic AI
 
 Tool use, multi-step reasoning, orchestration, structured outputs, memory, and controlled autonomy.
 
 </td>
 <td width="25%" valign="top">
 
-### 📚 Knowledge systems
+### 02 / Knowledge systems
 
 Document ingestion, embeddings, vector search, reranking, grounded answers, and citations.
 
 </td>
 <td width="25%" valign="top">
 
-### 👁️ Applied ML
+### 03 / Applied ML
 
 NLP, deep learning, computer vision, model evaluation, data analysis, and experimentation.
 
 </td>
 <td width="25%" valign="top">
 
-### ⚙️ AI delivery
+### 04 / AI delivery
 
 REST APIs, validation, Docker, authentication, monitoring, deployment, and CI/CD thinking.
 
@@ -178,9 +178,9 @@ REST APIs, validation, Docker, authentication, monitoring, deployment, and CI/CD
 
 <div align="center">
 
-<img width="58%" src="https://streak-stats.demolab.com?user=HashirLodhi&theme=tokyonight&hide_border=true&background=00000000&ring=22D3EE&fire=A78BFA&currStreakLabel=22D3EE" alt="Muhammad Hashir Lodhi's GitHub contribution streak" />
+<img width="58%" src="https://streak-stats.demolab.com?user=HashirLodhi&theme=transparent&hide_border=true&background=00000000&ring=525252&fire=171717&currStreakLabel=525252&sideLabels=737373&currStreakNum=171717&sideNums=404040&dates=a3a3a3" alt="Muhammad Hashir Lodhi's GitHub contribution streak" />
 
-[![Contribution activity graph](https://github-readme-activity-graph.vercel.app/graph?username=HashirLodhi&bg_color=00000000&color=94a3b8&line=22d3ee&point=a78bfa&area=true&area_color=0e7490&hide_border=true&custom_title=Contribution%20Activity)](https://github.com/HashirLodhi)
+[![Contribution activity graph](https://github-readme-activity-graph.vercel.app/graph?username=HashirLodhi&bg_color=00000000&color=737373&line=404040&point=a3a3a3&area=true&area_color=d4d4d4&hide_border=true&custom_title=Contribution%20Activity)](https://github.com/HashirLodhi)
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/HashirLodhi/HashirLodhi/output/github-contribution-grid-snake-dark.svg" />
@@ -204,8 +204,8 @@ REST APIs, validation, Docker, authentication, monitoring, deployment, and CI/CD
 
 I'm open to **AI engineering roles**, **collaborations**, and projects where thoughtful engineering matters.
 
-<a href="mailto:hashirlodhi145@gmail.com"><img src="https://img.shields.io/badge/EMAIL-ME-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Muhammad Hashir Lodhi" /></a>
-<a href="https://www.linkedin.com/in/hashir-lodhi/"><img src="https://img.shields.io/badge/CONNECT-LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect with Muhammad Hashir Lodhi on LinkedIn" /></a>
+<a href="mailto:hashirlodhi145@gmail.com"><img src="https://img.shields.io/badge/EMAIL-ME-111111?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Muhammad Hashir Lodhi" /></a>
+<a href="https://www.linkedin.com/in/hashir-lodhi/"><img src="https://img.shields.io/badge/CONNECT-LINKEDIN-111111?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect with Muhammad Hashir Lodhi on LinkedIn" /></a>
 <a href="https://github.com/HashirLodhi?tab=repositories"><img src="https://img.shields.io/badge/EXPLORE-MY_WORK-111827?style=for-the-badge&logo=github&logoColor=white" alt="Explore Muhammad Hashir Lodhi's repositories" /></a>
 
 <br><br>
