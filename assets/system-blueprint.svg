@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="285" viewBox="0 0 1200 285" role="img" aria-labelledby="title desc">
+  <title id="title">A blueprint for dependable AI systems</title>
+  <desc id="desc">A six-stage flow from understanding a problem to retrieval, reasoning, tool use, evaluation, and delivery.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#020617"/><stop offset="1" stop-color="#111827"/></linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#22d3ee"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <style>
+    .sans { font-family: Inter, "Segoe UI", Arial, sans-serif; }
+    .mono { font-family: "JetBrains Mono", Consolas, monospace; }
+    .connector { stroke-dasharray: 6 8; animation: travel 5s linear infinite; }
+    .card { animation: breathe 4s ease-in-out infinite; }
+    .card:nth-of-type(2n) { animation-delay: -2s; }
+    @keyframes travel { to { stroke-dashoffset: -84; } }
+    @keyframes breathe { 0%,100% { opacity: .78; } 50% { opacity: 1; } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </style>
+  <rect width="1200" height="285" rx="24" fill="url(#bg)"/>
+  <rect x="1" y="1" width="1198" height="283" rx="23" fill="none" stroke="#334155"/>
+  <text x="42" y="40" fill="#94a3b8" font-size="11" font-weight="700" letter-spacing="2.4" class="mono">A BLUEPRINT FOR DEPENDABLE AI</text>
+  <text x="1158" y="40" text-anchor="end" fill="#475569" font-size="10" letter-spacing="1.5" class="mono">SYSTEM / 01</text>
+
+  <g stroke="url(#line)" stroke-width="2" fill="none" opacity="0.72" filter="url(#glow)">
+    <path class="connector" d="M196 131H230"/>
+    <path class="connector" d="M386 131H420"/>
+    <path class="connector" d="M576 131H610"/>
+    <path class="connector" d="M766 131H800"/>
+    <path class="connector" d="M956 131H990"/>
+  </g>
+
+  <g class="sans">
+    <g class="card" transform="translate(40 70)"><rect width="156" height="122" rx="16" fill="#0f172a" stroke="#22d3ee" stroke-opacity=".46"/><circle cx="28" cy="28" r="13" fill="#0e7490"/><text x="28" y="33" text-anchor="middle" fill="#ecfeff" font-size="13" font-weight="800">1</text><text x="18" y="68" fill="#f8fafc" font-size="15" font-weight="750">UNDERSTAND</text><text x="18" y="91" fill="#64748b" font-size="11">intent · context</text><text x="18" y="108" fill="#64748b" font-size="11">constraints</text></g>
+    <g class="card" transform="translate(230 70)"><rect width="156" height="122" rx="16" fill="#0f172a" stroke="#22d3ee" stroke-opacity=".46"/><circle cx="28" cy="28" r="13" fill="#0e7490"/><text x="28" y="33" text-anchor="middle" fill="#ecfeff" font-size="13" font-weight="800">2</text><text x="18" y="68" fill="#f8fafc" font-size="15" font-weight="750">RETRIEVE</text><text x="18" y="91" fill="#64748b" font-size="11">evidence · memory</text><text x="18" y="108" fill="#64748b" font-size="11">semantic search</text></g>
+    <g class="card" transform="translate(420 70)"><rect width="156" height="122" rx="16" fill="#0f172a" stroke="#38bdf8" stroke-opacity=".48"/><circle cx="28" cy="28" r="13" fill="#0369a1"/><text x="28" y="33" text-anchor="middle" fill="#f0f9ff" font-size="13" font-weight="800">3</text><text x="18" y="68" fill="#f8fafc" font-size="15" font-weight="750">REASON</text><text x="18" y="91" fill="#64748b" font-size="11">plan · synthesize</text><text x="18" y="108" fill="#64748b" font-size="11">structure</text></g>
+    <g class="card" transform="translate(610 70)"><rect width="156" height="122" rx="16" fill="#0f172a" stroke="#818cf8" stroke-opacity=".48"/><circle cx="28" cy="28" r="13" fill="#4338ca"/><text x="28" y="33" text-anchor="middle" fill="#eef2ff" font-size="13" font-weight="800">4</text><text x="18" y="68" fill="#f8fafc" font-size="15" font-weight="750">USE TOOLS</text><text x="18" y="91" fill="#64748b" font-size="11">APIs · actions</text><text x="18" y="108" fill="#64748b" font-size="11">real-time data</text></g>
+    <g class="card" transform="translate(800 70)"><rect width="156" height="122" rx="16" fill="#0f172a" stroke="#a78bfa" stroke-opacity=".5"/><circle cx="28" cy="28" r="13" fill="#6d28d9"/><text x="28" y="33" text-anchor="middle" fill="#f5f3ff" font-size="13" font-weight="800">5</text><text x="18" y="68" fill="#f8fafc" font-size="15" font-weight="750">EVALUATE</text><text x="18" y="91" fill="#64748b" font-size="11">grounding · safety</text><text x="18" y="108" fill="#64748b" font-size="11">quality · cost</text></g>
+    <g class="card" transform="translate(990 70)"><rect width="170" height="122" rx="16" fill="#0f172a" stroke="#c4b5fd" stroke-opacity=".5"/><circle cx="28" cy="28" r="13" fill="#7c3aed"/><text x="28" y="33" text-anchor="middle" fill="#faf5ff" font-size="13" font-weight="800">6</text><text x="18" y="68" fill="#f8fafc" font-size="15" font-weight="750">DELIVER</text><text x="18" y="91" fill="#64748b" font-size="11">API · interface</text><text x="18" y="108" fill="#64748b" font-size="11">observe · improve</text></g>
+  </g>
+
+  <g class="mono" font-size="10" font-weight="700" letter-spacing="1.2">
+    <text x="42" y="239" fill="#2dd4bf">GROUNDING</text><circle cx="123" cy="235" r="2" fill="#475569"/>
+    <text x="137" y="239" fill="#38bdf8">EVALUATION</text><circle cx="227" cy="235" r="2" fill="#475569"/>
+    <text x="241" y="239" fill="#818cf8">OBSERVABILITY</text><circle cx="352" cy="235" r="2" fill="#475569"/>
+    <text x="366" y="239" fill="#a78bfa">SECURITY</text><circle cx="437" cy="235" r="2" fill="#475569"/>
+    <text x="451" y="239" fill="#c4b5fd">RELIABILITY</text>
+  </g>
+  <text x="1158" y="243" text-anchor="end" fill="#475569" font-size="10" class="mono">DESIGN → BUILD → MEASURE → ITERATE</text>
+</svg>
