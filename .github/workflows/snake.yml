@@ -1,14 +1,20 @@
 name: Generate contribution animation
 
 on:
+  # GitHub does not forward pushes from other repositories to the profile
+  # repository. Poll often so contributions from those repositories still
+  # reach the animation quickly.
   schedule:
-    - cron: "17 0 * * *"
+    - cron: "*/15 * * * *"
   workflow_dispatch:
+  # Other repositories can send this event after a push for a near-instant
+  # refresh (event_type: contribution-update).
+  repository_dispatch:
+    types:
+      - contribution-update
   push:
     branches:
       - main
-    paths:
-      - ".github/workflows/snake.yml"
 
 permissions:
   contents: write
