@@ -174,19 +174,6 @@ REST APIs, validation, Docker, authentication, monitoring, deployment, and CI/CD
 
 </details>
 
-## Intelligence in motion
-
-<div align="center">
-
-<a href="https://raw.githack.com/HashirLodhi/HashirLodhi/main/spline/index.html" target="_blank">
-  <img src="./assets/spline-robot.gif" width="72%" alt="Animated black-and-white 3D AI robot — click to interact with the live Spline scene" />
-</a>
-
-<strong><a href="https://raw.githack.com/HashirLodhi/HashirLodhi/main/spline/index.html">CLICK TO INTERACT IN 3D ↗</a></strong><br />
-<sub>Move your cursor and the robot follows you. The live WebGL scene opens outside GitHub because README files cannot execute scripts.</sub>
-
-</div>
-
 ## Engineering signal
 
 <div align="center">
