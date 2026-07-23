@@ -174,13 +174,31 @@ REST APIs, validation, Docker, authentication, monitoring, deployment, and CI/CD
 
 </details>
 
+## Intelligence in motion
+
+<div align="center">
+
+<img src="./assets/spline-robot.gif" width="72%" alt="Animated black-and-white 3D AI robot rendered from Muhammad Hashir Lodhi's Spline scene" />
+
+<sub>Interactive concept captured from the original Spline scene for GitHub-safe playback.</sub>
+
+</div>
+
 ## Engineering signal
 
 <div align="center">
 
-<img width="58%" src="https://streak-stats.demolab.com?user=HashirLodhi&theme=transparent&hide_border=true&background=00000000&ring=525252&fire=171717&currStreakLabel=525252&sideLabels=737373&currStreakNum=171717&sideNums=404040&dates=a3a3a3" alt="Muhammad Hashir Lodhi's GitHub contribution streak" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=HashirLodhi&amp;theme=transparent&amp;hide_border=true&amp;disable_animations=true&amp;background=00000000&amp;stroke=e5e5e5&amp;ring=e5e5e5&amp;fire=ffffff&amp;currStreakLabel=e5e5e5&amp;sideLabels=a3a3a3&amp;currStreakNum=ffffff&amp;sideNums=e5e5e5&amp;dates=a3a3a3" />
+  <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=HashirLodhi&amp;theme=transparent&amp;hide_border=true&amp;disable_animations=true&amp;background=00000000&amp;stroke=404040&amp;ring=525252&amp;fire=171717&amp;currStreakLabel=525252&amp;sideLabels=737373&amp;currStreakNum=171717&amp;sideNums=404040&amp;dates=737373" />
+  <img width="58%" src="https://streak-stats.demolab.com?user=HashirLodhi&amp;theme=transparent&amp;hide_border=true&amp;disable_animations=true&amp;background=00000000&amp;stroke=404040&amp;ring=525252&amp;fire=171717&amp;currStreakLabel=525252&amp;sideLabels=737373&amp;currStreakNum=171717&amp;sideNums=404040&amp;dates=737373" alt="Muhammad Hashir Lodhi's GitHub contribution streak" />
+</picture>
 
-[![Contribution activity graph](https://github-readme-activity-graph.vercel.app/graph?username=HashirLodhi&bg_color=00000000&color=737373&line=404040&point=a3a3a3&area=true&area_color=d4d4d4&hide_border=true&custom_title=Contribution%20Activity)](https://github.com/HashirLodhi)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=HashirLodhi&amp;bg_color=00000000&amp;color=a3a3a3&amp;line=e5e5e5&amp;point=ffffff&amp;area=true&amp;area_color=404040&amp;hide_border=true&amp;custom_title=Contribution%20Activity" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=HashirLodhi&amp;bg_color=00000000&amp;color=737373&amp;line=404040&amp;point=a3a3a3&amp;area=true&amp;area_color=d4d4d4&amp;hide_border=true&amp;custom_title=Contribution%20Activity" />
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=HashirLodhi&amp;bg_color=00000000&amp;color=737373&amp;line=404040&amp;point=a3a3a3&amp;area=true&amp;area_color=d4d4d4&amp;hide_border=true&amp;custom_title=Contribution%20Activity" alt="Muhammad Hashir Lodhi's contribution activity graph" />
+</picture>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/HashirLodhi/HashirLodhi/output/github-contribution-grid-snake-dark.svg" />
