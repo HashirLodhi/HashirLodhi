@@ -178,9 +178,12 @@ REST APIs, validation, Docker, authentication, monitoring, deployment, and CI/CD
 
 <div align="center">
 
-<img src="./assets/spline-robot.gif" width="72%" alt="Animated black-and-white 3D AI robot rendered from Muhammad Hashir Lodhi's Spline scene" />
+<a href="https://hashirlodhi.github.io/HashirLodhi/" target="_blank">
+  <img src="./assets/spline-robot.gif" width="72%" alt="Animated black-and-white 3D AI robot — click to interact with the live Spline scene" />
+</a>
 
-<sub>Interactive concept captured from the original Spline scene for GitHub-safe playback.</sub>
+<strong><a href="https://hashirlodhi.github.io/HashirLodhi/">CLICK TO INTERACT IN 3D ↗</a></strong><br />
+<sub>Move your cursor and the robot follows you. The live WebGL scene opens outside GitHub because README files cannot execute scripts.</sub>
 
 </div>
 
